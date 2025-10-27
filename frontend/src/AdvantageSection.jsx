@@ -14,6 +14,16 @@ const rightAdvantages = [
 ];
 
 const AdvantageSection = () => {
+  const phoneNumber = "+917899051883";
+  const whatsappMessage = encodeURIComponent(
+    "Hi, I'm interested Luxury Villas at Tellapur. Please share more details."
+  );
+
+  const handleCallClick = () => {
+    alert("Calling for Luxury Villas at Tellapur...");
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
   return (
     <section className="bg-gradient-to-r from-gray-50 via-white to-gray-100 py-16 px-6">
       <div className="max-w-6xl mx-auto text-center animate-fade-in">
@@ -36,6 +46,7 @@ const AdvantageSection = () => {
               </li>
             ))}
           </ul>
+
           <ul className="space-y-6 text-left">
             {rightAdvantages.map((item, idx) => (
               <li
@@ -48,17 +59,18 @@ const AdvantageSection = () => {
             ))}
           </ul>
         </div>
-  
+
+        {/* ✅ Call & WhatsApp Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
-          
-          <a
-            href="tel:+919392925831"
+          <button
+            onClick={handleCallClick}
             className="blinking-button bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full flex items-center gap-3 shadow-md transition-all duration-300"
           >
             <FaPhoneAlt /> Call Us
-          </a>
+          </button>
+
           <a
-            href="https://wa.me/9392925831"
+            href={`https://wa.me/${phoneNumber}?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             className="blinking-button bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full flex items-center gap-3 shadow-md transition-all duration-300"
@@ -67,7 +79,7 @@ const AdvantageSection = () => {
           </a>
         </div>
 
-        <p className="text-sm text-gray-500 mt-6">T&C apply</p>
+        <p className="text-sm text-gray-500 mt-6">T&C apply*</p>
       </div>
     </section>
   );

@@ -35,8 +35,8 @@ const PricingSection = () => {
 
       <div className="mt-6 py-3 font-semibold text-black text-lg">
         For Presentations & Site Visit, Contact - {""}
-        <a href="tel:+919392925831" className="text-blue-600 underline">
-          +91-9392925831
+        <a href="tel:+917899051883" className="text-blue-600 underline">
+          +91-78990 51883
         </a>
       </div>
 

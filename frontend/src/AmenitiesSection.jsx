@@ -14,15 +14,65 @@ const amenities = [
    
   {
     id: "clubhouse",
-    label: "G+4 FLOORS(CLUBHOUSE) AMENITIES",
+    label: "CLUBHOUSE AMENITIES",
     items: [
-      "Multli-Purpose Hall",
-      "Swimming Pool",
-      "Indoor Badminton Court",
-      "Co-Working Space",
-      "Guest Rooms",
-      "Indoor Gym",
-      "Luxury Waiting Lounges", "Rooftop Garden", "Part Deck Area", "Spa & Salon", "Terrace Party Zone", "Yoga", "Indoor Games", "Double Height Entrance Lobby", "Prvision for Supermarket", "Kids Play Area", "Community Office", "Space for Creche"
+      "Pedestrain Plaza",
+      "Kid's Swimming Pool",
+      "Main Swimming Pool",
+      "Lounge Seating",
+      "Changing Room",
+      "Clubhouse Drop Off",
+      "Water Feature", "Cycling Track", "Buggy Parking", "Mango Tree Deck", "EV Charging Point","Grand Lawn"
+    ],
+  },
+  {
+    id: "park1",
+    label: "PARK-1 AMENITIES",
+    items: [
+      "Temple Plaza",
+      "Zen Garden",
+      "Golf Putting"
+    ],
+  },
+   {
+    id: "park2",
+    label: "PARK-2 AMENITIES",
+    items: [
+      "Jogging Track",
+      "Pickle Ball Court",
+      "Padel Court",
+      "Hammock Zone",
+      "Stepped Seating",
+      "Meditation Area",
+      "Central Plaza",
+      "Children's Play Area",
+      "Rock Wall Climbing",
+      "Outdoor Gym",
+      "Community Laundry Room",
+      "Tree Cutout"
+    ],
+  },
+   {
+    id: "park3",
+    label: "PARK-3 AMENITIES",
+    items: [
+      "Skate Pack",
+      "Badminton Court",
+      "Tennis Court",
+      "Basketball Zone",
+      "Gallery Seating",
+      "Box Cricket",
+      "Pet Corner"
+    ],
+  },
+   {
+    id: "park4",
+    label: "PARK-4 AMENITIES",
+    items: [
+      "Creche",
+      "Adventure Play Area",
+      "Co-Working Pods",
+      "Outdoor Board Games"
     ],
   },
 ];

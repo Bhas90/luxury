@@ -172,8 +172,7 @@ const Banner = () => {
                 required
               />
               <span>
-                I authorize Canny Group and its representatives to Call, SMS, Email or WhatsApp me. I also accept{" "}
-                T&C {" "}and{" "} Pivacy Policy                 .
+                I accept{" "} Terms {" "}and{" "} Pivacy Policy                 .
               </span>
             </div>
             {errors.agreeTerms && <p className="text-red-500 text-sm">{errors.agreeTerms}</p>}

@@ -1,5 +1,5 @@
 import React from "react";
-import pLogo from "./assets/canny_banner.png";
+import pLogo from "./assets/luxury-villas-tellapur.webp";
 
 const PrivacyPolicy = () => {
   return (

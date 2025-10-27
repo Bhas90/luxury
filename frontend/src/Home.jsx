@@ -6,11 +6,13 @@ import ProjectOverview from "./ProjectOverview";
 import AmenitiesSection from "./AmenitiesSection";
 import Banner from "./Banner";
 import ConnectivitySection from "./ConnectivitySection";
-import PricingSection from "./PricingSection";
+import AboutTellapur from "./AboutTellapur";
 import WhatsAppButton from "./WhatsAppButton";
 import PopupForm from "./PopupForm";
 import AttentionGrabberButton from "./AttentionGrabberButton";
-import FloorPlans from "./FloorPlans";
+
+import FaqTellapur from "./FaqTellapur.jsx";
+import SeoKeywordsTellapur from "./SeoKeywordsTellapur.jsx";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -33,12 +35,7 @@ const Home = () => {
         <h2 className="section-heading"></h2>
         <AmenitiesSection />
       </div>
-      <div id="pricing">
-        <h2 className="section-heading"></h2>
-        <PricingSection />
-      </div>
       
-        <FloorPlans/>
       
       <div id="nri-support">
         <h2 className="section-heading"></h2>
@@ -51,10 +48,16 @@ const Home = () => {
         <h2 className="section-heading"></h2>
         <ConnectivitySection />
       </div>
+      <div id="faq-tellapur">
+        <h2 className="section-heading"></h2>
+        <FaqTellapur/>
+      </div>
+      
       <div id="about">
         <h2 className="section-heading"></h2>
-        <StudyAbroad />
+        <AboutTellapur />
       </div>
+      <SeoKeywordsTellapur/>
       <WhatsAppButton />
       <PopupForm show={showPopup} onClose={() => setShowPopup(false)} />
     </>

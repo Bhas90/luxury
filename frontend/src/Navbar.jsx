@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaPhoneAlt, FaBars, FaTimes } from "react-icons/fa";
-import mlogo from "./assets/cannylogo.png";
+import mlogo from "./assets/luxury-logo.webp";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -59,15 +59,16 @@ const Navbar = () => {
       >
         <button onClick={() => scrollToSection("project-overview")} className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">Project Overview</button>
         <button onClick={() => scrollToSection("amenities")}  className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">Amenities</button>
-        <button onClick={() => scrollToSection("pricing")}className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">Pricing</button>
+        
         <button onClick={() => scrollToSection("nri-support")} className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">NRI Support</button>
         <button onClick={() => scrollToSection("connectivity")} className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">Connectivity</button>
+        <button onClick={() => scrollToSection("faq-tellapur")} className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">Faq's</button>
         <button onClick={() => scrollToSection("about")} className="px-4 py-2 border border-transparent border rounded hover:border-green-700 transition duration-300">About</button>
         <a
-          href="callto:+919392925831"
+          href="callto:+917899051883"
           className="blinking-button px-4 py-2 text-white rounded-full shadow-md hover:opacity-90 transition duration-300 bg-gradient-to-r from-[#00b4e6] to-[#002954]"
         >
-        Call +91-9392925831
+        Call +91-78990 51883
       </a>
 
       </nav>
@@ -82,10 +83,10 @@ const Navbar = () => {
           <button onClick={() => scrollToSection("connectivity")}>Connectivity</button>
           <button onClick={() => scrollToSection("about")}>About</button>
           <a
-          href="callto:+919392925831"
+          href="callto:+917899051883"
           className="blinking-button px-4 py-2 text-white rounded-full shadow-md hover:opacity-90 transition duration-300 bg-gradient-to-r from-[#00b4e6] to-[#002954]"
         >
-            Call +91-9392925831
+            Call +91-78990 51883
           </a>
 
         </div>
