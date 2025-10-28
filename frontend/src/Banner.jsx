@@ -113,7 +113,7 @@ const Banner = () => {
           <p className="text-lg md:text-xl text-gray-100 mb-4">
             Schedule your{" "}
             <span style={{ color: '#00b4e6' }}>exclusive site visit</span> today at{" "}
-            <span style={{ color: '#00b4e6' }}><strong>Bowrampet</strong></span> — Hyderabad’s most promising address for future-forward living.
+            <span style={{ color: '#00b4e6' }}><strong>Tellapur</strong></span> — Hyderabad’s most promising address for future-forward living.
           </p>
           <hr className="border-gray-500" />
         </div>
