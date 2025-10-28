@@ -52,7 +52,7 @@ const ConnectivitySection = () => {
           {connectivityItems.map((item, index) => (
             <div
               key={index}
-              className="flex items-start p-2 rounded-xl shadow-md bg-gradient-to-br from-white to-gray-50 border hover:shadow-lg transition duration-300"
+              className="flex items-start p-4 rounded-xl shadow-md bg-gradient-to-br from-white to-gray-50 border hover:shadow-lg transition duration-300"
             >
               <div className="mr-4">{item.icon}</div>
               <div>
