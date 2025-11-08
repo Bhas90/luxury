@@ -74,7 +74,7 @@ const PopupForm = ({ show: externalShow, onClose: externalOnClose }) => {
     setIsSubmitting(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/home/send-email", // Match backend port here
+      const res = await axios.post("https://call.get-details.com/home/send-email", // Match backend port here
         {
         name: formData.name,
         email: formData.email,
